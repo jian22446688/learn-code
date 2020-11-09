@@ -8,3 +8,5 @@
 // const 和 let 区别
 
 const name = 'Cary'
+
+let age = 18
