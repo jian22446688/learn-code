@@ -1,0 +1,213 @@
+{
+  "list": [
+    {
+      "id": "1",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用1",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "2",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用2",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "3",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用3",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "4",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用4",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "5",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用5",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "6",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用6",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "7",
+      "agency": "3",
+      "fid": "0",
+      "name": "个人金融业务",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "8",
+      "agency": "3",
+      "fid": "0",
+      "name": "公司金融业务",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "9",
+      "agency": "3",
+      "fid": "0",
+      "name": "金融市场业务",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "10",
+      "agency": "3",
+      "fid": "0",
+      "name": "风险管理",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "11",
+      "agency": "3",
+      "fid": "0",
+      "name": "通用技能",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "12",
+      "agency": "3",
+      "fid": "0",
+      "name": "创新业务",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "13",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用7",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "14",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用8",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "15",
+      "agency": "3",
+      "fid": "0",
+      "name": "政策法规与职业操守",
+      "cert_code": "",
+      "type": "2"
+    },
+    {
+      "id": "16",
+      "agency": "3",
+      "fid": "0",
+      "name": "备用9",
+      "cert_code": "",
+      "type": "2"
+    },
+    {
+      "id": "17",
+      "agency": "3",
+      "fid": "0",
+      "name": "商业银行个人业务客户经理网络培训证书",
+      "cert_code": "02",
+      "type": "3"
+    },
+    {
+      "id": "18",
+      "agency": "3",
+      "fid": "0",
+      "name": "商业银行公司业务客户经理网络培训证书",
+      "cert_code": "01",
+      "type": "3"
+    },
+    {
+      "id": "19",
+      "agency": "3",
+      "fid": "0",
+      "name": "银行小微金融网络培训证书",
+      "cert_code": "03",
+      "type": "3"
+    },
+    {
+      "id": "20",
+      "agency": "3",
+      "fid": "0",
+      "name": "银团贷款网络培训证书",
+      "cert_code": "04",
+      "type": "3"
+    },
+    {
+      "id": "21",
+      "agency": "3",
+      "fid": "0",
+      "name": "私人银行与财富管理",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "22",
+      "agency": "3",
+      "fid": "0",
+      "name": "客户开发与服务",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "23",
+      "agency": "3",
+      "fid": "0",
+      "name": "健康生活",
+      "cert_code": "",
+      "type": "1"
+    },
+    {
+      "id": "24",
+      "agency": "3",
+      "fid": "0",
+      "name": "商业银行普惠金融网络培训证书",
+      "cert_code": "05",
+      "type": "3"
+    },
+    {
+      "id": "25",
+      "agency": "3",
+      "fid": "0",
+      "name": "抗疫爱心课",
+      "cert_code": "08",
+      "type": "1"
+    },
+    {
+      "id": "26",
+      "agency": "3",
+      "fid": "0",
+      "name": "直播课程",
+      "cert_code": "09",
+      "type": "1"
+    }
+  ],
+  "total": "26"
+}
