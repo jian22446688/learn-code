@@ -8,8 +8,12 @@
 const { default: Axios } = require('axios');
 Axios.default.withCredentials = true;
 // http://ucollege.china-cbi.net/index.php?m=Api&agency=3&test_show
+
+// const baseurl = 'http://ucollege.china-cbi.net'
+const baseurl = 'https://peixun.amac.org.cn'
+
 const Config = {
-  url: 'http://ucollege.china-cbi.net',
+  url: baseurl,
   timeout: 10000 // request timeout
 }
 

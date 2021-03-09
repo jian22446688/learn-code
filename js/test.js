@@ -23,16 +23,34 @@ const fs = require('fs');
 // get
 // http://ucollege.china-cbi.net/index.php?m=Api&agency=3&class_catalog&act=class_catalog&cid=249&u_token=-1
 
-let list = require('./data/allclass.json').list
-let typeList = require('./data/typeclass.json').list
+// let list = require('./data/allclass.json').list
+// let typeList = require('./data/typeclass.json').list
+let list = []
+let typeList =[]
+// let typeList = require('./data/typeclass.json').list
 const path = require('path')
 let file = path.resolve(__dirname, './file.txt')
-
-
 
 let reqIndex = 0
 
 let resList = []
+
+/**
+ * 获取分类
+ */
+function getCategoryList() {
+  http.get(`/index.php?m=Api&agency=3&category_list&act=category_list&pn=500&u_token=-1`).then(res => {
+    typeList = res.list || []
+    
+     http.get(`/index.php?m=Api&agency=3&class_list&act=class_list&pn=899999&pg=1&u_token=-1`).then(res => {
+      list = res.list || []
+      console.log(list.length)
+      request()
+    })
+  })
+}
+
+https://peixun.amac.org.cn/
 
 function request() {
   let item = list[reqIndex]
@@ -55,8 +73,11 @@ function request() {
       class_cata_name: getTypeStr(item.grouping_id),
       video_number: getVideoNumber(res)
     })
+
+    reqIndex++
+    request()
   })
-  reqIndex++
+  
 }
 
 function getTypeStr(id) {
@@ -74,4 +95,6 @@ function getVideoNumber(res) {
   return num
 }
 
-request(list[0].id)
+// request(list[0].id)
+
+getCategoryList()
